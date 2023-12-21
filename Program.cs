@@ -15,6 +15,8 @@ if (!app.Environment.IsDevelopment())
 }
 
 //Now staging
+
+//Now New Branch Check
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
